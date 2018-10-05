@@ -30,7 +30,7 @@
   list-style: none;
   padding: 0;
   min-height: 300px;
-  max-height: 564px;
+  max-height: 550px;
   /* Fix of Webkit flickering */
   z-index: 1;
 }
