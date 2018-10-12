@@ -36,29 +36,39 @@ h3 {
   Font test
 ==================================== */
 
+.nanum-big {
+	font-family: 'Nanum Myeongjo';
+	font-weight: bold;
+	font-size: 26px;
+}
+
 .nanum {
 	font-family: 'Nanum Myeongjo';
-	font-size: 18px;
+	font-size: 19px;
 }
 
 .gamja {
 	font-family: 'Gamja Flower';
 	font-size: 22px;
+	display: none;
 }
 
 .nanumbrush {
 	font-family: 'Nanum Brush Script';
 	font-size: 24px;
+	display: none;
 }
 
 .dokdo {
 	font-family: 'East Sea Dokdo';
 	font-size: 24px;
+	display: none;
 }
 
 .stylish {
 	font-family: 'Stylish';
 	font-size: 22px;
+	display: none;
 }
 
 /* =================================
@@ -95,7 +105,8 @@ ul {
 p {
   line-height: 1.6;
   color: #7A7A7A;
-  font-size: 17px;
+  font-size: 18px;
+	margin: 2px;
 }
 
 a:link {
@@ -122,6 +133,7 @@ body {
 
 
 .calendar {
+	margin-top: 15px;
 	width: 100%;
 }
 
