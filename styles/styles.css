@@ -32,6 +32,13 @@ h3 {
   padding: 20px 0px;
 }
 
+hr{
+	margin: 15px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 /* =================================
   Font test
 ==================================== */
@@ -45,6 +52,12 @@ h3 {
 .nanum {
 	font-family: 'Nanum Myeongjo';
 	font-size: 18px;
+}
+
+.nanum-small {
+	font-family: 'Nanum Myeongjo';
+	font-size: 14px;
+	color: #ACACAC;
 }
 
 .gamja {
@@ -274,7 +287,7 @@ body {
 }
 
 .columnb {
-	background-color: #f4f4f4;
+	background-color: #F2F5FF;
 }
 
 .map {
@@ -300,6 +313,12 @@ body {
 	.columna,
 	.columnb {
 		padding: 60px 40px;
+		width: 70%;
+		text-align: center;
+		margin: auto;
+	}
+
+	.map-container{
 		width: 70%;
 		text-align: center;
 		margin: auto;
