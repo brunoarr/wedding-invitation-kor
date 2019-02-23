@@ -17,11 +17,12 @@ h3 {
 h1 {
 	font-size: 38px;
 	font-family: 'Dancing Script';
-  padding: 10px 0px;
+  padding: 0px;
 }
 
 h2 {
 	font-family: 'Dancing Script';
+	color: #7A7A7A;
   font-size: 34px;
   padding: 20px 0px;
 }
@@ -32,6 +33,12 @@ h3 {
   padding: 20px 0px;
 }
 
+h4 {
+	font-family: 'Dancing Script';
+  font-size: 26px;
+	margin: 20px 0;
+}
+
 hr{
 	margin: 15px;
 	border: 0;
@@ -39,49 +46,50 @@ hr{
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.more-space p{
+	padding-left: 20px;
+	padding-right: 1px;
+	line-height: 38px;
+}
+
+.box {
+	border: solid 2px #F2F5FF;
+	padding: 10px;
+	margin: 15px;
+}
+
+.flag {
+	width: 32px;
+	padding-bottom: 4px;
+	vertical-align: bottom;
+}
+
 /* =================================
   Font test
 ==================================== */
 
 .nanum-big {
-	font-family: 'Nanum Myeongjo';
+	/* font-family: 'Nanum Myeongjo'; */
+	font-family: 'Sunflower', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
 }
 
 .nanum {
-	font-family: 'Nanum Myeongjo';
+	/* font-family: 'Nanum Myeongjo'; */
+	font-family: 'Sunflower', sans-serif;
 	font-size: 18px;
 }
 
 .nanum-small {
-	font-family: 'Nanum Myeongjo';
-	font-size: 14px;
+	/* font-family: 'Nanum Myeongjo'; */
+	font-family: 'Sunflower', sans-serif;
+	font-size: 16px;
 	color: #ACACAC;
 }
 
-.gamja {
-	font-family: 'Gamja Flower';
-	font-size: 22px;
-	display: none;
-}
-
-.nanumbrush {
-	font-family: 'Nanum Brush Script';
-	font-size: 24px;
-	display: none;
-}
-
-.dokdo {
-	font-family: 'East Sea Dokdo';
-	font-size: 24px;
-	display: none;
-}
-
-.stylish {
-	font-family: 'Stylish';
-	font-size: 22px;
-	display: none;
+.left-align {
+	text-align: left;
 }
 
 /* =================================
@@ -95,8 +103,9 @@ ul {
 }
 
 .swiper-container {
+		padding: 40px 0px;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .highlight {
@@ -132,80 +141,13 @@ li {
   padding: 10px 0px;
 }
 
-#contact {
-  text-align: center;
-  max-width: 100%;
-  padding: 30px 5%;
-  background-color: #FEFCFD;
-	box-shadow: 10px 2px 12px -4px rgba(191,191,191,0.48);
-}
-
 body {
 	margin:0;
 }
 
-
 .calendar {
 	margin-top: 15px;
 	width: 100%;
-}
-
-/* =================================
-  Base Layout Styles
-==================================== */
-
-#intro {
-	background-image: url("../images/backgroundaaa.jpg");
-	background-repeat: no-repeat;
-	background-position: bottom;
-}
-
-.intro {
-  text-align: center;
-  max-width: 100%;
-  padding: 40px 5%;
-	margin-left: 0;
-}
-
-.intro img{
-  max-width: 100%;
-}
-
-.mobile-nav2 li{
-  font-weight: bold;
-	list-style-type: none;
-  float: right;
-  color: #464646;
-  padding: 30px 0px 0px 10px;
-}
-
-.copyright li{
-  font-weight: bold;
-	list-style-type: none;
-  float: left;
-  color: #464646;
-  padding: 30px 10px 0px 0px;
-}
-
-.nav2 {
-	display: none;
-}
-
-/* ---- Logos ---- */
-
-.codelogo {
-	padding: 15px 5px 0px 5px;
-}
-
-.logocontainer {
-	text-align: center;
-	padding-bottom: 15px;
-}
-
-.logo {
-	padding: 30px 0;
-	height: 100px;
-	margin-bottom: -2px;
 }
 
 .photo {
@@ -222,62 +164,9 @@ body {
 	margin: auto;
 }
 
-/* ---- Button---- */
-
-.button {
-		background-color: #DC143C;
-		border: solid 1px #ffffff;
-		color: #ffffff;
-		border-radius: 5px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 26px;
-		transition: 0.5s;
-		font-family: 'Dancing Script';
-		font-weight: bold;
-		margin-top: 30px;
-		margin-bottom: 30px;
-}
-
-.button2 {
-    background-color: #DC143C;
-    border: solid 1px #ffffff;
-    color: #ffffff;
-		border-radius: 5px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
-		transition: 0.5s;
-		font-family: 'Dancing Script';
-		font-weight: bold;
-		margin-bottom: 80px;
-}
-
-.button:hover {
-	color:#DC143C;
-	border: solid 1px #DC143C;
-	background-color: #ffffff;
-}
-
-.button2:hover  {
-	color:#DC143C;
-	border: solid 1px #DC143C;
-	background-color: #ffffff;
-}
-
-.button:active,
-.button2:active {
-	text-decoration: none;
-}
-
-
 .columna,
 .columnb {
-	padding: 40px 20px;
+	padding: 50px 20px;
 	width: 100%;
 	text-align: center;
 }
