@@ -13,6 +13,10 @@ Colores
 	box-sizing: border-box;
 }
 
+body {
+	max-width: 600px;
+}
+
 h1,
 h2,
 h3 {
@@ -156,7 +160,7 @@ li {
 }
 
 body {
-	margin:0;
+	margin: auto;
 }
 
 .calendar {
@@ -191,11 +195,15 @@ body {
 }
 
 .columnb {
-	background-color: #FFF8FB;
+	/* background-color: #FFF8FB; */
+	/* background: #FFF6ED; */
+	background: #F5F1F0;
 }
 
 .columnc {
-	background: #FFF8FB;
+	/* background: #FFF8FB; */
+	background: #F5F1F0;
+	/* background: #FFF6ED; */
 	border-top: solid 2px #FFF3F0;
 }
 
@@ -250,7 +258,7 @@ body {
 	}
 
 	h1 {
-		padding-top: 80px;
+		padding-top: 20px;
 	}
 
 	.alignment {
@@ -387,7 +395,6 @@ body {
 	}
 
 	body {
-		max-width: 1400px;
 		margin: auto;
 	}
 
