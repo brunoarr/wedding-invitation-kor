@@ -1,15 +1,18 @@
-<<<<<<< HEAD
-=======
-function openEnvelop() {
-  $(".envelop-container").css({ opacity: "0" });
-  setTimeout(function() {
-    $(".envelop-container").css({ display: "none" });
-    $(".main-container").css({ display: "block" });
-  }, 1000);
+// function addanimation() {
+//   var element = document.getElementById("swipe");
+//   element.classList.add("animated");
+// }
 
-}
-
-$(".button2").click(function() {
-   openEnvelop();
+$(window).scroll(function() {
+  var hT = $("#swipe").offset().top,
+    hH = $("#swipe").outerHeight(),
+    wH = $(window).height(),
+    wS = $(this).scrollTop();
+  if (wS > hT + hH - wH) {
+    const element = document.querySelector("#swipe");
+    element.classList.add("animated", "slideOutLeft");
+    element.addEventListener("animationend", function() {
+      element.classList.remove("slideOutLeft");
+    });
+  }
 });
->>>>>>> e07478d81d01e6e5ef78c3419a9b9b58c7f5bb3d

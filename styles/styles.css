@@ -70,6 +70,17 @@ hr{
 	display: inline-block;
 }
 
+.box2 {
+	border: solid 2px #DFE3EF;
+	padding: 10px 15px;
+	margin: 0px 15px;
+	display: inline-block;
+}
+
+.hand-swipe {
+	width: 32px;
+}
+
 .flag {
 	width: 32px;
 	padding-bottom: 4px;
@@ -78,7 +89,7 @@ hr{
 
 .flag2 {
 	width: 28px;
-	padding-bottom: 4px;
+	padding-bottom: 5px;
 	vertical-align: bottom;
 }
 
