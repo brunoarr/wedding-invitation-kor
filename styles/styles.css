@@ -81,6 +81,10 @@ hr{
 	width: 32px;
 }
 
+#swipe {
+	animation-duration: 6s;
+}
+
 .flag {
 	width: 32px;
 	padding-bottom: 4px;

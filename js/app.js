@@ -10,9 +10,9 @@ $(window).scroll(function() {
     wS = $(this).scrollTop();
   if (wS > hT + hH - wH) {
     const element = document.querySelector("#swipe");
-    element.classList.add("animated", "slideOutLeft");
-    element.addEventListener("animationend", function() {
-      element.classList.remove("slideOutLeft");
-    });
+    element.classList.add("animated", "shake");
+    // element.addEventListener("animationend", function() {
+    //   element.classList.remove("shake");
+    // });
   }
 });
