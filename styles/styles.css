@@ -210,16 +210,13 @@ body {
 }
 
 .columnb {
-	/* background-color: #FFF8FB; */
-	/* background: #FFF6ED; */
 	background: #fdfafc;
 }
 
 .columnc {
-	/* background: #FFF8FB; */
-	background: #F5F1F0;
-	/* background: #FFF6ED; */
-	border-top: solid 2px #FFF3F0;
+	background: #FFF8FB;
+	/* background: #F5F1F0; */
+	/* border-top: solid 2px #FFF3F0; */
 }
 
 .map {
