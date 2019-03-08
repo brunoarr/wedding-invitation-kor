@@ -33,7 +33,7 @@ h1 {
 
 h2 {
 	font-family: 'Dancing Script';
-	color: #7A7A7A;
+	color: #464646;
   font-size: 34px;
   padding: 20px 0px;
 }
@@ -118,7 +118,7 @@ hr{
 	/* font-family: 'Nanum Myeongjo'; */
 	font-family: 'Sunflower', sans-serif;
 	font-size: 16px;
-	color: #ACACAC;
+	color: #787878;
 }
 
 .left-align {
@@ -159,7 +159,7 @@ ul {
 
 p {
   line-height: 1.6;
-  color: #7A7A7A;
+  color: #464646;
   font-size: 18px;
 	margin: 2px;
 }
